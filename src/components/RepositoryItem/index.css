@@ -1,0 +1,93 @@
+/* Write your CSS here */
+
+.data-item {
+  margin: 20px;
+}
+
+.all-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 280px;
+  height: 400px;
+  background-color: #f8f8ff;
+  border-radius: 10px;
+  padding: 15px;
+}
+
+.data-image {
+  height: 100px;
+  width: 90px;
+}
+
+.name {
+  font-size: 25px;
+  font-family: Roboto;
+  color: #e73959;
+  font-weight: bold;
+}
+
+.starsCount {
+  font-size: 17px;
+  font-family: Roboto;
+  color: #1e293b;
+  font-weight:;
+}
+
+.forksCount {
+  font-size: 17px;
+  font-family: Roboto;
+  color: #1e293b;
+  font-weight:;
+}
+
+.issuesCount {
+  font-size: 17px;
+  font-family: Roboto;
+  color: #1e293b;
+  font-weight:;
+}
+
+.stars-container {
+  display: flex;
+  align-items: center; /* Aligns items vertically to the center */
+  margin-bottom: 8px; 
+}
+
+.forks-container {
+  display: flex;
+  align-items: center; /* Aligns items vertically to the center */
+  margin-bottom: 8px; 
+}
+.issues-container {
+  display: flex;
+  align-items: center; /* Aligns items vertically to the center */
+  margin-bottom: 8px; 
+}
+
+.stars {
+  width: 20px;
+  height: 20px;
+  margin-right: 8px; 
+}
+
+.forks {
+  width: 20px;
+  height: 20px;
+  margin-right: 8px; 
+}
+
+.issues {
+  width: 20px;
+  height: 20px;
+  margin-right: 8px; 
+}
+
+
+
+
+
+
+
+
+

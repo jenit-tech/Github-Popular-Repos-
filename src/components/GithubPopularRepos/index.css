@@ -1,0 +1,55 @@
+/* Write your CSS here */
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+}
+
+.container-heading {
+  font-size: 45px;
+  color: #0f172a;
+  font-family: Lobster;
+  font-weight: bold;
+}
+
+.app-list-container {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+}
+
+.data-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.data-items {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style-type: none;
+}
+
+.failure-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+}
+
+.failure-image {
+  height: 600px;
+  width: 500px;
+}
+
+.failure-heading {
+  font-size: 45px;
+  color: #1e293b;
+  font-family: Lobster;
+  font-weight: bold;
+
+}
